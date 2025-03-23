@@ -1,4 +1,7 @@
-from algorithms import fcfs, sjf, round_robin, priority
+from algorithms.fcfs import fcfs
+from algorithms.sjf import sjf
+from algorithms.round_robin import round_robin
+from algorithms.priority import priority
 from visualization import display_results
 
 def get_user_input():
